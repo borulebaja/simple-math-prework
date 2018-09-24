@@ -22,7 +22,7 @@ def square_root(num)
   Math.sqrt(num)
 end
 
-def (order_of_operation(7, 43, 23, 83))
+def (order_of_operation(7, 43, 23, 83)).to eq(18)
   
 end
 #Hint:  __ + (( __ * __ ) / __ )
